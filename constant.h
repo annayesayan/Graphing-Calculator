@@ -1,0 +1,18 @@
+#ifndef CONSTANT_H
+#define CONSTANT_H
+
+enum TYPES {TOKEN, NUMBER, OPERATOR, LPAREN, RPAREN, FUNCTION, VARIABLE};
+
+const float SCREEN_WIDTH = 1200;
+const float SCREEN_HEIGHT =1000;
+const float WORK_PANEL = SCREEN_WIDTH*4/5;
+const float SIDE_BAR = SCREEN_WIDTH*1/5;
+
+
+const int SB_MOUSE_POSITION = 0;
+const int SB_MOUSE_CLICKED = SB_MOUSE_POSITION + 1;
+const int SB_KEY_PRESSED = SB_MOUSE_CLICKED + 1;
+
+const double pi = 3.14159265359;
+
+#endif // CONSTANT_H
